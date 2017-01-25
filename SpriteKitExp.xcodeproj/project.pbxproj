@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		59DBF60A1E38614900D9B44F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DBF6091E38614900D9B44F /* AppDelegate.swift */; };
-		59DBF60C1E38614900D9B44F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF60B1E38614900D9B44F /* GameScene.sks */; };
-		59DBF60E1E38614900D9B44F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF60D1E38614900D9B44F /* Actions.sks */; };
 		59DBF6101E38614900D9B44F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DBF60F1E38614900D9B44F /* GameScene.swift */; };
 		59DBF6121E38614900D9B44F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DBF6111E38614900D9B44F /* GameViewController.swift */; };
 		59DBF6151E38614900D9B44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF6131E38614900D9B44F /* Main.storyboard */; };
 		59DBF6171E38614900D9B44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF6161E38614900D9B44F /* Assets.xcassets */; };
 		59DBF61A1E38614900D9B44F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF6181E38614900D9B44F /* LaunchScreen.storyboard */; };
+		59DBF6221E38724B00D9B44F /* SKPlayerShipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DBF6211E38724B00D9B44F /* SKPlayerShipNode.swift */; };
+		59DBF6241E3882C200D9B44F /* Fish.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 59DBF6231E3882C200D9B44F /* Fish.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59DBF6061E38614900D9B44F /* SpriteKitExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DBF6091E38614900D9B44F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59DBF60B1E38614900D9B44F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		59DBF60D1E38614900D9B44F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		59DBF60F1E38614900D9B44F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		59DBF6111E38614900D9B44F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		59DBF6141E38614900D9B44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59DBF6161E38614900D9B44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DBF6191E38614900D9B44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DBF61B1E38614900D9B44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DBF6211E38724B00D9B44F /* SKPlayerShipNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPlayerShipNode.swift; sourceTree = "<group>"; };
+		59DBF6231E3882C200D9B44F /* Fish.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Fish.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				59DBF6091E38614900D9B44F /* AppDelegate.swift */,
-				59DBF60B1E38614900D9B44F /* GameScene.sks */,
-				59DBF60D1E38614900D9B44F /* Actions.sks */,
 				59DBF60F1E38614900D9B44F /* GameScene.swift */,
+				59DBF6231E3882C200D9B44F /* Fish.atlas */,
+				59DBF6211E38724B00D9B44F /* SKPlayerShipNode.swift */,
 				59DBF6111E38614900D9B44F /* GameViewController.swift */,
 				59DBF6131E38614900D9B44F /* Main.storyboard */,
 				59DBF6161E38614900D9B44F /* Assets.xcassets */,
@@ -133,10 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DBF6151E38614900D9B44F /* Main.storyboard in Resources */,
-				59DBF60C1E38614900D9B44F /* GameScene.sks in Resources */,
 				59DBF6171E38614900D9B44F /* Assets.xcassets in Resources */,
 				59DBF61A1E38614900D9B44F /* LaunchScreen.storyboard in Resources */,
-				59DBF60E1E38614900D9B44F /* Actions.sks in Resources */,
+				59DBF6241E3882C200D9B44F /* Fish.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +148,7 @@
 			files = (
 				59DBF6101E38614900D9B44F /* GameScene.swift in Sources */,
 				59DBF6121E38614900D9B44F /* GameViewController.swift in Sources */,
+				59DBF6221E38724B00D9B44F /* SKPlayerShipNode.swift in Sources */,
 				59DBF60A1E38614900D9B44F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
