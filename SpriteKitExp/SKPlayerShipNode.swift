@@ -26,7 +26,7 @@ class KGPlayerShipNode: SKSpriteNode {
     
     let defaultScale:CGFloat = 0.5
     let defaultTextureName = "salmon1"
-    let defaultSize:CGSize = CGSize(width: 300.0, height: 150.0)
+    let defaultSize:CGSize = CGSize(width: 80.0, height: 40.0)
     
     init() {
         
